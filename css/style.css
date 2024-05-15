@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+   body{
+            background-image: url("/img/background.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:  fixed;      
+        }
+
+        h1{
+            background-color: forestgreen; color: rgb(211, 219, 230); text-align: center;
+            font-family: "Radio Canada Big", sans-serif; 
+                                    
+        }
+
+        p{
+            background-color: rgb(39, 65, 39); color:bisque;
+            font-family: "Radio Canada Big", sans-serif;
+        }
+
+        #hiID{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+      fieldset{
+        margin: 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+        
+      }
+
+      .sample_class{
+            background-color: bisque;
+            color: blueviolet;
+            text-align: center;
+            padding: 100px 200px 50px 20px;
+             border: 20px solid red;
+        }
+
+        .box01{
+           width: 100px;
+           height: 100px;
+           background-color: rgb(8, 8, 8);
+           position: sticky;
+           top: 0px;
+           z-index: 1;
+        }
+
+        .box02{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(218, 125, 12);
+            
+         }
+
+        .box03{
+           width: 200px;
+           height: 100px;
+           background-color:white ;
+           position: relative;
+         }
+
+         .box04{
+           width: 50px;
+           height: 50px;
+           background-color:rgb(255, 0, 0) ;
+           position: absolute;
+           border-radius: 30px;
+           left: 70px;
+           top: 25px;
+         }
+
